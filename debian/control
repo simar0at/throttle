@@ -1,0 +1,13 @@
+Source: throttle
+Section: admin
+Priority: optional
+Maintainer: Vladimir Vinogradenko <vladimirv@ixsystems.com>
+Build-Depends: debhelper-compat (= 12), python3-virtualenv
+Standards-Version: 4.4.0
+Homepage: https://github.com/xorgy/throttle
+
+Package: throttle
+Architecture: amd64
+Description: throttle - bandwidth limiting pipe
+ Throttle copies the standard input to the standard output while limiting
+ bandwidth to the specified maximum.
